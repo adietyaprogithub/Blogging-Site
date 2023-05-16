@@ -1,0 +1,59 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 255 , 255 ,  0.5),
+    rgba(255, 255 , 255 ,  0.5)), 
+    url("https://images.pexels.com/photos/66284/winter-nature-season-trees-66284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+
+
+.loginTitle{
+    font-size: 50px;
+}
+
+.loginform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginform>lable{
+
+    margin: 10px 0;
+
+}
+
+.logininput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.LoginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.LoginButtonregister{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+

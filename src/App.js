@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Topbar from "./Components/Topbar";
+import Home from "./Components/pages/home";
+import Single from "./Components/pages/single/single";
+import Write from "./Components/pages/write/write";
+import Setting from "./Components/pages/setting/setting";
+import Login from "./Components/pages/login/login";
+import Register from "./Components/pages/Register/register";
+import Singlepost from "./Components/singlepost/singlepost";
+import Post from "./Components/post/post";
 
-function App() {
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+export default function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div>
+    //   <Setting/>
+    // </div>
+
+
+    <Router>
+      <Topbar />
+      <Routes>
+        <Route exact path="/" element={<Home />}></Route>
+      </Routes>
+      <Routes>
+        <Route path="/register" element={<Register />}></Route>
+      </Routes>
+      <Routes>
+        <Route path="/login" element={<Login />}></Route>
+      </Routes>
+      <Routes>
+        <Route path="/write" element={<Write />}></Route>
+      </Routes>
+      <Routes>
+        <Route path="/setting" element={<Setting />}></Route>
+      </Routes>
+      <Routes>
+        <Route path="/singlepost" element={<Singlepost />}></Route>
+      </Routes>
+     
+
+    </Router>
   );
 }
-
-export default App;

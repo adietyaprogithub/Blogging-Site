@@ -1,0 +1,96 @@
+.setting{
+    display: flex;
+}
+
+.settingwrapeer{
+    flex: 9;
+    padding: 20px;
+
+}
+
+.settingtitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-be\;
+}
+
+.settingupdatetitile{
+    font-size: 30px;
+    margin-bottom: 20px ;
+    color: lightcoral;
+}
+
+.settingdeteletetitile{
+    font-size: 12px;
+    color:lightcoral ;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+
+
+
+
+.settingpp{
+
+    display: flex;
+    align-items: center;
+    margin-top: 1opx ;
+    margin-bottom: 10px;
+}
+
+.settingimg{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.settingform{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.settingppicon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: white;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.settingform >label{
+   font-size: 20px;
+   margin-top: 20px;
+
+}
+
+.settingform >input{
+    color: grey;
+    margin: 10px  0;
+    border: none;
+    border-bottom: 1px solid lightgray;
+
+     
+ }
+
+ .settingsubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+
+
+ }
