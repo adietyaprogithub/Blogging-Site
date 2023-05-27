@@ -14,9 +14,9 @@ export default function Header() {
         );
         setCurrentWordIndex(currentWordIndex + 1);
       }
-    }, 1000); // Change the delay here (in milliseconds) to adjust the time between each word
+    }, 1000); // time that word wll come 
 
-    return () => clearTimeout(timer); // Cleanup the timer when the component unmounts
+    return () => clearTimeout(timer); // Cleanup
   }, [currentWordIndex, words]);
 
   return (
