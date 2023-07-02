@@ -34,7 +34,7 @@ The Twitter Clone utilizes the following data structure to manage its functional
 
 ## Installation
 
-1. Clone the repository: `https://github.com/adietyaprogithub/Blogging-Site/edit/blog/`
+1. Clone the repository: `https://github.com/adietyaprogithub/Blogging-Site/blog/`
 2. Navigate to the project directory: `cd new-Twitter`
 3. Install the dependencies: `npm install`
 4. Set up the required environment variables. You can either create a `.env` file and define the variables or set them directly in your system environment.
